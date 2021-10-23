@@ -1,0 +1,126 @@
+*{
+    border: 0;
+    margin: 0;
+    
+    outline: 0;
+}
+body{
+    margin: 0;
+    position: absolute;
+    top:0;
+    margin:0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(138, 153, 153);
+}
+form{
+background-color: red;
+    margin: 1px;
+    height: 20px;
+    width: 20%;
+    align-self: center;
+}
+.link{
+    text-emphasis-color: white;
+}
+header{
+    background-image: url(/pictures/Hollow\ knight.jpg);
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+.box{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    background-color: gray;
+}
+button{
+    background-color: rgb(0, 81, 255);
+    margin: 1px;
+    height: 20px;
+    width: 100%;
+    align-self: center;
+}
+.content{
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: black;
+   
+}
+p{
+    text-emphasis-color: rgb(91, 88, 122);
+}
+.paragraph{
+    color:rgb(159, 154, 206); ;
+    text-emphasis-color: white;
+	background-color: rgb(47, 47, 58);
+	border: 2px solid Tomato;
+	background-size: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 50%;
+    min-height: 100%;
+    top: 0;
+}
+.Images{
+    float: left;
+    height: 40px;
+    width: 40px;
+
+    position: inherit;
+}
+.Character-Images{
+    float: left;
+    border-radius: 50%;
+}
+quotes{
+    
+}
+.last{
+
+}
+table {
+    border-spacing: 5px;
+  }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(116, 21, 40);
+    color:aliceblue;
+}
+.Won{
+    background-color: aquamarine;
+}
+.nominated{
+    background-color: rgb(196, 115, 115);
+}
+footer{
+    background-color: gray;
+    width: 100%;
+   
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;            
+}
